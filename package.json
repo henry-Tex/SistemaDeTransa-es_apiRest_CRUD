@@ -1,0 +1,29 @@
+{
+  "name": "desafio-backend-03-dindin-dbeifood",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry-Tex/desafio-backend-03-dindin-dbeifood.git"
+  },
+  "keywords": ["Desafio modulo 3", "dindin"],
+  "author": ["Henrique Teixeira", "Mauricio Alves"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henry-Tex/desafio-backend-03-dindin-dbeifood/issues"
+  },
+  "homepage": "https://github.com/henry-Tex/desafio-backend-03-dindin-dbeifood#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
